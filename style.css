@@ -1,0 +1,253 @@
+header {
+    position: fixed;
+    text-align: center;
+    color: rgb(246, 232, 232);
+    background-color: rgb(66, 27, 27);
+    padding: 0%;
+    width: 100%;
+    height: 12svh;
+    font-size: large;
+    font-family: Georgia, serif;
+}
+
+body {
+    background-size: auto;
+    background-color: rgb(241, 233, 221);
+}
+
+
+form {
+    padding-top: 100px;
+}
+
+fieldset {
+    background-color: (#6C5B7B);
+    width: fit-content;
+    margin-right: 53px ;
+    padding: 8%;
+    border: 3px solid #ccc;
+    border-radius: 100px;
+    text-align: center;
+    border-image: space;
+}
+
+legend {
+    background-color: rgb(69, 28, 28);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;;
+}
+
+.description {
+    width: 1200px;
+    height: auto;
+    color: #ccc;
+    position: relative;
+    top: -550px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.description h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 5px;
+}
+
+.description p {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px ;
+    line-height: 25px;
+}
+
+.description span {
+    color: rgb(107, 30, 30);
+
+}
+
+.submit-button {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.customer {
+    width: 250px;
+    height: 27px;
+    border-radius: 3px;
+    margin:  0 auto;
+    margin-left: -70px;
+    background-color: rgb(216, 207, 207);
+    
+}
+
+button[type="submit"] {
+    background-color: rgb(69, 28, 28);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70%;
+    top: 40px;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(198, 151, 151);
+    color: #000;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    padding-top: 12svh;
+}
+
+table, a {
+    font-size: x-large;
+    color: white;
+    height: 80svh;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(198, 151, 151);
+
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding: 12svh 0 0 150px;
+    overflow-y: auto;
+}
+
+.megasale-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.megasale {
+    display: flex;
+    transition: tranform 0.5 ease;
+    float: left;
+}
+
+.megasale img {
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    border-right: 1px solid #ddd;
+}
+
+.hotItem-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.hotItem {
+    float: left;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.hotItem img {
+    height: 200px;
+    width: 100px;
+    max-width: 100%;
+    border-right: 1px solid #ddd;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.product-container {
+    background-color: rgb(255, 255, 255);
+    overflow-y: visible;
+    
+}
+
+.product img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+}
+
+.product {
+    float: left;
+    width: 200px; 
+    height: 300px;
+    border: 1px solid whitesmoke; 
+    text-align: center; 
+    vertical-align: top;
+    margin: 0;
+    padding: 10px;
+}
+
+ .about-us {
+    background-color:rgba(219, 192, 192, 0.885);
+    border: 2px solid rgb(198, 151, 151);
+    padding: 20px;
+    border-radius: 45px;
+    text-align: justify;
+    margin:  auto;
+} 
+
+.contact {
+    background-color:rgba(219, 192, 192, 0.885);
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 45px;
+}
+
+.contact .icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
